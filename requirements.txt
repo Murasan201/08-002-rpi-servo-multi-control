@@ -1,7 +1,8 @@
-# Raspberry Pi GPIO制御ライブラリ
-RPi.GPIO>=0.7.1
-
 # サーボモーター制御用ライブラリ
-pigpio>=1.78
+adafruit-circuitpython-servokit>=1.3.0
+
+# Raspberry Pi GPIO制御ライブラリ（予備）
+# RPi.GPIO>=0.7.1
+# pigpio>=1.78
 
 # その他の依存パッケージ

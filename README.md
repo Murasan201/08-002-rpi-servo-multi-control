@@ -32,14 +32,49 @@ It is designed as educational material for Python beginners.
 
 ## Installation
 
+### 1. Create a virtual environment
+
+To avoid conflicts with system packages, we recommend using a Python virtual environment:
+
+```bash
+# Create a virtual environment
+python3 -m venv venv
+```
+
+### 2. Activate the virtual environment
+
+```bash
+# Activate the virtual environment
+source venv/bin/activate
+```
+
+After activation, you should see `(venv)` at the beginning of your command prompt.
+
+### 3. Install dependencies
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 ```
 
+### Notes
+
+- To deactivate the virtual environment, run: `deactivate`
+- You need to activate the virtual environment each time you start a new terminal session before running the scripts
+
 ## Usage
 
+Before running any scripts, make sure to activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
 Please refer to the documentation in the `docs/` directory for details.
+
+## Troubleshooting
+
+If you encounter any issues during installation or execution, please refer to [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for common problems and their solutions.
 
 ## License
 
