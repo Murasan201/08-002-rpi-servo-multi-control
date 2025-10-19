@@ -1,50 +1,50 @@
-# Raspberry Pi サーボモーター複数制御
+# Raspberry Pi Multi-Servo Control
 
-Pythonプログラミング入門書向けのサンプルアプリケーション
+Sample application for Python programming textbook
 
-## 概要
+## Overview
 
-本プロジェクトは、Raspberry Piを使用して複数のサーボモーターを制御するPythonアプリケーションです。
-Python初学者向けの教材として設計されています。
+This project is a Python application for controlling multiple servo motors using Raspberry Pi.
+It is designed as educational material for Python beginners.
 
-## 機能
+## Features
 
-- 複数のサーボモーターの同時制御
-- 角度指定による位置制御
-- シーケンシャル動作のサポート
+- Simultaneous control of multiple servo motors
+- Position control by angle specification
+- Sequential motion support
 
-## 必要な環境
+## Requirements
 
-- Raspberry Pi (推奨: Raspberry Pi 3以降)
-- Python 3.7以上
-- サーボモーター
-- ジャンパーワイヤー
+- Raspberry Pi (Recommended: Raspberry Pi 3 or later)
+- Python 3.7 or higher
+- Servo motors
+- Jumper wires
 
-## ディレクトリ構成
+## Directory Structure
 
 ```
 .
-├── src/           # ソースコード
-├── examples/      # サンプルスクリプト
-├── docs/          # ドキュメント
-└── tests/         # テストコード
+├── src/           # Source code
+├── examples/      # Sample scripts
+├── docs/          # Documentation
+└── tests/         # Test code
 ```
 
-## インストール
+## Installation
 
 ```bash
-# 依存パッケージのインストール
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## Usage
 
-詳細は `docs/` ディレクトリ内のドキュメントを参照してください。
+Please refer to the documentation in the `docs/` directory for details.
 
-## ライセンス
+## License
 
-LICENSEファイルを参照してください。
+See the LICENSE file.
 
-## 著者
+## Author
 
-Kodansha Python入門書プロジェクト
+Kodansha Python Textbook Project
